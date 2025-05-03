@@ -31,19 +31,56 @@
         <table class="result-form" cellpadding="8" cellspacing="0">
           <tr>
             <td>Enter your Roll Number</td>
-            <td><input type="text" id="roll" name="roll" required></td>
+            <td>
+              <input
+                type="tel"
+                id="roll"
+                name="roll"
+                inputmode="numeric"
+                pattern="\d*"
+                required
+                autocomplete="off"
+              >
+            </td>
           </tr>
           <tr>
             <td>Enter School No.</td>
-            <td><input type="text" id="school" name="school" required></td>
+            <td>
+              <input
+                type="tel"
+                id="school"
+                name="school"
+                inputmode="numeric"
+                pattern="\d*"
+                required
+                autocomplete="off"
+              >
+            </td>
           </tr>
           <tr>
             <td>Enter Date of Birth</td>
-            <td><input type="date" id="dob" name="dob" required></td>
+            <td>
+              <input
+                type="date"
+                id="dob"
+                name="dob"
+                required
+              >
+            </td>
           </tr>
           <tr>
             <td>Enter Admit Card ID<br><span class="hint">(as given on your admit card)</span></td>
-            <td><input type="text" id="admit" name="admit" required></td>
+            <td>
+              <input
+                type="tel"
+                id="admit"
+                name="admit"
+                inputmode="numeric"
+                pattern="\d*"
+                required
+                autocomplete="off"
+              >
+            </td>
           </tr>
           <tr>
             <td colspan="2" class="button-row">
@@ -56,6 +93,6 @@
     </div>
   </main>
 
-  <script src="main.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

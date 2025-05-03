@@ -7,6 +7,7 @@ body {
   
   header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: #00a1e8;
@@ -17,6 +18,10 @@ body {
   .logo {
     height: 50px;
     margin-right: 12px;
+  }
+  
+  .board-name {
+    line-height: 1.1;
   }
   
   .board-name .hindi {
@@ -37,6 +42,7 @@ body {
   
   .header-right {
     font-size: 14px;
+    margin-top: 8px;
   }
   
   .sub-header {
@@ -64,7 +70,8 @@ body {
   }
   
   .form-container {
-    width: 540px;
+    width: 90%;
+    max-width: 540px;
     padding: 20px;
     border: 1px solid #cccccc;
     border-radius: 4px;
@@ -84,7 +91,7 @@ body {
     font-size: 14px;
   }
   
-  .result-form input[type="text"],
+  .result-form input[type="tel"],
   .result-form input[type="date"] {
     width: 100%;
     padding: 8px;

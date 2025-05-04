@@ -1,127 +1,127 @@
 /* style.css */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #ffffff;
-  }
-  
-  header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #00a1e8;
-    padding: 10px 20px;
-    color: #ffffff;
-  }
-  
-  .logo {
-    height: 50px;
-    margin-right: 12px;
-  }
-  
-  .board-name {
-    line-height: 1.1;
-  }
-  
-  .board-name .hindi {
-    margin: 0;
-    font-size: 14px;
-  }
-  
-  .board-name .english {
-    margin: 0;
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  .header-left {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header-right {
-    font-size: 14px;
-    margin-top: 8px;
-  }
-  
-  .sub-header {
-    padding: 12px 20px;
-    border-bottom: 1px solid #cccccc;
-    background: #f2f2f2;
-  }
-  
-  .sub-header h1 {
-    margin: 0;
-    font-size: 20px;
-    color: #003366;
-  }
-  
-  .sub-header p {
-    margin: 4px 0 0;
-    font-size: 12px;
-    color: #333333;
-  }
-  
-  main {
-    display: flex;
-    justify-content: center;
-    margin: 30px 0;
-  }
-  
-  .form-container {
-    width: 90%;
-    max-width: 540px;
-    padding: 20px;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    background: #ffffff;
-  }
-  
-  .form-container h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 18px;
-    color: #003366;
-  }
-  
-  .result-form td {
-    vertical-align: middle;
-    font-size: 14px;
-  }
-  
-  .result-form input[type="tel"],
-  .result-form input[type="date"] {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-    font-size: 14px;
-    border: 1px solid #999999;
-    border-radius: 2px;
-  }
-  
-  .hint {
-    font-size: 11px;
-    color: #cc0000;
-  }
-  
-  .button-row {
-    text-align: center;
-    padding-top: 15px;
-  }
-  
-  .button-row button {
-    padding: 8px 20px;
-    margin: 0 10px;
-    font-size: 14px;
-    background: #00a1e8;
-    color: #ffffff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  .button-row button:hover {
-    background: #0088c4;
-  }
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00a1e8;
+  padding: 10px 20px;
+  color: #ffffff;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 12px;
+}
+
+.board-name {
+  line-height: 1.1;
+}
+
+.board-name .hindi {
+  margin: 0;
+  font-size: 14px;
+}
+
+.board-name .english {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.sub-header {
+  padding: 12px 20px;
+  border-bottom: 1px solid #cccccc;
+  background: #f2f2f2;
+}
+
+.sub-header h1 {
+  margin: 0;
+  font-size: 20px;
+  color: #003366;
+}
+
+.sub-header p {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #333333;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.form-container {
+  width: 90%;
+  max-width: 540px;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background: #ffffff;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #003366;
+}
+
+.result-form td {
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.result-form input[type="tel"],
+.result-form input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border: 1px solid #999999;
+  border-radius: 2px;
+}
+
+.hint {
+  font-size: 11px;
+  color: #cc0000;
+}
+
+.button-row {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.button-row button {
+  padding: 8px 20px;
+  margin: 0 10px;
+  font-size: 14px;
+  background: #00a1e8;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button-row button:hover {
+  background: #0088c4;
+}
